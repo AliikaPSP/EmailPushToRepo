@@ -12,7 +12,7 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: "Send Mail"
           body: |
-            tuvipoost on kiirem, aga commiti tegi
+            tuvipost on kiirem, aga commiti tegi
             ${{github.event.pusher.name}} repost
             ${{github.repository}} sõnumiga
             ${{github.event.head_commit.message}}

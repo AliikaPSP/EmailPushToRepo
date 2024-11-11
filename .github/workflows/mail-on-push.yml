@@ -18,3 +18,4 @@ jobs:
             ${{github.event.head_commit.message}}
           to: aliika.puusepp@hotmail.com
           from: "GitHub Actions"
+          # jou
